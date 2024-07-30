@@ -5,10 +5,15 @@ SkipList实现KV存储
 基本功能如下：
 
 "-----------------SkipList Test-----------------" 
+
 "Enter command: (1) insert, (2) search,  (3) delete " 
+
 "               (4) update, (5) display, (6) dump "   
+
 "               (7) load,   (8) clear,   (9) help: "  
+
 "                           (0) size               "  
+
 "-----------------------------------------------" 
 
 在KV-Value-2中，受到前两个项目的启发，我将原本的KV存储操作改进为了上面这种，命令行式的执行命令。
