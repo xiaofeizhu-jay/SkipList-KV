@@ -1,0 +1,35 @@
+TEST_COUNT: 1000 NUM_THREADS: 1
+insert elapsed: 1.41076 seconds
+update elapsed: 2.91505 seconds
+search elapsed: 1.86962 seconds
+delete elapsed: 1.61011 seconds
+TEST_COUNT : 1000 NUM_THREADS: 2
+insert elapsed: 1.89913 seconds
+insert QPS: 526.557
+update elapsed: 3.40361 seconds
+update QPS: 293.806
+get elapsed: 2.34271 seconds
+get QPS: 426.855
+delete elapsed: 1.88019 seconds
+delete QPS: 531.86
+
+TEST_COUNT : 1000 NUM_THREADS: 4
+insert elapsed: 1.76646 seconds
+insert QPS: 566.103
+update elapsed: 3.30879 seconds
+update QPS: 302.225
+get elapsed: 1.96283 seconds
+get QPS: 509.468
+delete elapsed: 1.22724 seconds
+delete QPS: 814.836
+
+TEST_COUNT : 1000 NUM_THREADS: 1
+insert elapsed: 1.5425 seconds
+insert QPS: 648.297
+update elapsed: 2.82798 seconds
+update QPS: 353.609
+get elapsed: 1.48182 seconds
+get QPS: 674.844
+delete elapsed: 1.34138 seconds
+delete QPS: 745.504
+

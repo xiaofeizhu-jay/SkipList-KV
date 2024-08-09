@@ -1,0 +1,10 @@
+TEST_COUNT : 1000 NUM_THREADS: 1
+insert elapsed: 1.1716 seconds
+insert QPS: 853.537
+update elapsed: 2.34013 seconds
+update QPS: 427.327
+get elapsed: 1.31219 seconds
+get QPS: 762.085
+delete elapsed: 1.01539 seconds
+delete QPS: 984.845
+
